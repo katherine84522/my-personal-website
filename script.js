@@ -3,6 +3,8 @@ h2.textContent = "This content added by Javascript";
 
 document.querySelector("body").appendChild(h2);
 
-const e = document.getElementsByClassName("div1");
+const e = document.getElementById("cats");
 
-e.addEventListener('mouseover', "Nice to meet you!");
+e.addEventListener('mouseover', function () {
+    displayQuote("Nice to meet you!");
+});
