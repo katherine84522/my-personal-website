@@ -3,4 +3,6 @@ h2.textContent = "This content added by Javascript";
 
 document.querySelector("body").appendChild(h2);
 
-Image.addEventLister('mouseover', "Nice to meet you!");
+const e = document.getElementsByClassName("div1");
+
+e.addEventListener('mouseover', "Nice to meet you!");
