@@ -28,11 +28,16 @@ img {
 
 
 h2 {
-    color: rgb(82, 121, 110) text-align: center;
+    color: rgb(82, 121, 110);
+    text-align: center;
 }
 
 ul {
     color: rgb(62, 84, 74);
     line-height: 1.8;
     margin-left: 25%;
+}
+
+ul li {
+    margin-left: 0%;
 }
