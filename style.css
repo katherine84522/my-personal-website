@@ -12,7 +12,11 @@ body {
 img {
     width: 100%;
     height: auto;
-    object-fit: cover;
+    object-fit: fill;
+}
+
+h1 {
+    text-align: center;
 }
 
 .first-txt {
