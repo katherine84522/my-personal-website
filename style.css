@@ -1,3 +1,11 @@
 body {
-    background: blue;
+    background: rgb(180, 198, 137);
+}
+
+h2 {
+    color: rgb(82, 121, 110)
+}
+
+ul {
+    color: rgb(62, 84, 74)
 }
