@@ -5,7 +5,12 @@ body {
 .div1 {
     width: max-content;
     height: auto;
-    background-image: url("https://mediaproxy.salon.com/width/1200/height/675/https://media.salon.com/2022/05/cats-party-0516221.jpg");
+}
+
+.first-txt {
+    position: absolute;
+    top: 20px;
+    left: 50px;
 }
 
 h1 {
