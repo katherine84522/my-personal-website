@@ -42,3 +42,9 @@ h2 {
     margin-left: 400px;
     line-height: 30px;
 }
+
+#back-to-top {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

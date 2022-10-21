@@ -1,10 +1,5 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by Javascript";
+const backToTopButton = document.getElementById('back-to-top')
 
-document.querySelector("body").appendChild(h2);
-
-const e = document.getElementById("cats");
-
-e.addEventListener('mouseover', function () {
-    displayQuote("Nice to meet you!");
-});
+backToTopButton.addEventListener('click', function () {
+    window.scrollTo(0, 0)
+})
