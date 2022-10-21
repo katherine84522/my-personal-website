@@ -35,9 +35,5 @@ h2 {
 ul {
     color: rgb(62, 84, 74);
     line-height: 1.8;
-    margin-left: 25%;
-}
-
-ul ul li {
-    margin-left: 0%;
+    margin-left: 100px;
 }
