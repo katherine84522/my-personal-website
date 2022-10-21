@@ -16,14 +16,11 @@ img {
     object-fit: fill;
 }
 
-h1 {
-    text-align: center;
-}
 
 .first-txt {
     position: absolute;
-    text-align: center;
     top: 100px;
+    margin-left: 30%;
     color: white;
     font-size: 60px;
     font-family: Arial, Helvetica, sans-serif;
